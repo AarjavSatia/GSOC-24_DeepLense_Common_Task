@@ -4,4 +4,4 @@
 
 Individual ROC             |  Average ROC
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_1.png?raw=true)  | ![alt text](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_2.png?raw=true)
+![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/Images_ROC/MultiROC_2.png?raw=true)
