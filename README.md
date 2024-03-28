@@ -1,4 +1,4 @@
-## GSOC-24 DeepLense Common Task - Substructure Classification
+# GSOC-24 DeepLense Common Task - Classification
 
 
 
