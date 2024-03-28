@@ -10,8 +10,8 @@ Individual ROC             |  Average ROC
 
 <p>1) The main idea is to build upon previous papers [1], [2] that have performed classification on strong lensing images that is why Resnet34 model pretrained on ImageNet dataset has been used for classification as it simple, lightweight and effective.</p>
 <p>3) Among the 7500 validation images 90% are used during training as validation and 10% are used to conduct different tests to evaluate the model.</p>
-<p>4) Model performs well and gets an accuracy of <strong>92.67%</strong> on the test data and attains an average AUC score of **0.9852**.
-With class individual AUC score being **0.991** for no substructure, **0.985** for sphere and **0.979** for vort. </p>
+<p>4) Model performs well and gets an accuracy of <strong>92.67%</strong> on the test data and attains an average AUC score of <strong>0.9852</strong>.
+With class individual AUC score being <strong>0.991</strong> for no substructure, <strong>0.985</strong> for sphere and <strong>0.979</strong> for vort. </p>
 
 
 
