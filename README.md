@@ -7,8 +7,11 @@ Classwise ROC             |  Average ROC
 ![ROC plot showing individual ROC curves for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_1.png?raw=true)  | ![ROC plot showing an average ROC curve for all three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/MultiROC_2.png?raw=true)
 ### Dataset:
 #### Dataset Description:
-<p>The dataset consists of 30,000 training images and 7,500 validation images, all of size 150x150 pixels. All images are stored as one channel numpy arrays. In the training set each class (no, sphere and vort) has an equal distribution  of 10,000 samples each. The same is followed in the validation set.</p>  
-![Three classes](https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/classification_data_description.png?raw=true)
+<p>The dataset consists of 30,000 training images and 7,500 validation images, all of size 150x150 pixels. All images are stored as one channel numpy arrays. In the training set each class (no, sphere and vort) has an equal distribution  of 10,000 samples each. The same is followed in the validation set.</p> The three classes of the data are shown below: 
+
+<p align="center">
+  <img src="https://github.com/AarjavSatia/GSOC-24_DeepLense_Common_Task/blob/main/images/classification_data_description.png?raw=true" alt="Three classes of the data."  /> 
+</p>
 
 #### Dataset Preprocessing
 <p>The numpy arrays are first converted into 3 channel PIL images and then finally resized to 224x224x3 pixels. They are then converted to tensors and normalized in the range [-1,1]. Data augmentations like Horizontal flipping are also applied to make the model more robust.</p>  
